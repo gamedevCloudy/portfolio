@@ -1,0 +1,36 @@
+body {
+	color: #2e2e2e;
+	text-align: justified;
+    font-family: "Inconsolata", monospace;
+	width: 60%;
+	margin: auto;
+}
+
+hr {
+	background-color: #ffffff;
+}
+
+a {
+	color: #7a04eb;
+}
+
+a:hover:not(.page-heading):not(#anylink) {
+    color: #ffffff;
+    background-color: #1b1b1b;
+    text-decoration: none;
+    padding: 2px;
+    margin: -2px;
+}
+
+.page-heading {
+	text-align: center;
+	text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+}

@@ -2,12 +2,12 @@ body {
 	color: #2e2e2e;
 	text-align: justified;
     font-family: "Inconsolata", monospace;
-	width: 60%;
+	width: 75%;
 	margin: auto;
 }
 
 hr {
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
 a {

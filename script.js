@@ -3,13 +3,13 @@ let theme = "light";
 let light = {};
 light.background = "#ffffff";
 light.color = "#1b1b1b";
-light.anylink = "#05be70";
+light.anylink = "#7b32d9";
 light.themebutton = "Light Mode";	
 
 let dark = {};
 dark.background = "#1b1b1b";
 dark.color = "#ffffff";
-dark.anylink = "#7a04eb";
+dark.anylink = "#7b32d9";
 dark.themebutton = "Dark Mode";
 
 function isMobile() {
@@ -34,7 +34,7 @@ window.addEventListener("resize", () => {
 		document.body.style.width = "85%";
 	}
 	else {
-		document.body.style.width = "60%";
+		document.body.style.width = "70%";
 	}
 });
 

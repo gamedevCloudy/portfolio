@@ -1,5 +1,5 @@
 body {
-	color: #2e2e2e;
+	color: #1b1b1b;
 	text-align: justified;
     font-family: "Inconsolata", monospace;
 	width: 75%;
@@ -7,12 +7,16 @@ body {
 }
 
 hr {
-	background-color: #000000;
+	/*background-color: #f54864; */
+	color: #4f568a;
 }
 
 a {
-	color: #7a04eb;
+	color: #7b32d9;
 }
+/* h1{
+	color: #7b32d9; 
+} */
 
 a:hover:not(.page-heading):not(#anylink) {
     color: #ffffff;

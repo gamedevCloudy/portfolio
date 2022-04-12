@@ -25,6 +25,9 @@ a:hover:not(.page-heading):not(#anylink) {
     padding: 2px;
     margin: -2px;
 }
+h6{
+	text-align: center;
+}
 
 .page-heading {
 	text-align: center;

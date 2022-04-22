@@ -1,3 +1,14 @@
 * gamedevCloudy
 "Its [[http://motherfuckingwebsite.com/][minimal]]." said DemonKingSwarn. 
 I nodded.
+
+** Be a chad
+[[https://landchad.net][Get a Website]]
+
+** Getting the source code
+
+#+BEGIN_SRC sh
+   curl -sL "https://aayushakacloudy.is-a.dev" > index.html
+   curl -sL "https://aayushakacloudy.is-a.dev/script.js" > script.js
+   curl -sL "https://aayushakacloudy.is-a.dev/style.css" > style.css
+#+END_SRC

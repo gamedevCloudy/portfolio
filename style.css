@@ -1,43 +1,166 @@
-body {
-	color: #1b1b1b;
-	text-align: justified;
-    font-family: "Inconsolata", monospace;
-	width: 75%;
-	margin: auto;
+
+/*Mobile and global goes here */
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+  
+    font-family: Inter, Roboto Condensed,sans-serif;
 }
 
-hr {
-	/*background-color: #f54864; */
-	color: #4f568a;
+
+#purple
+{
+    color: rebeccapurple;
+    font-size: 16px;
+    font-weight: 100;
+}
+#big, h1
+{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 32px;
 }
 
-a {
-	color: #7b32d9;
+h2{
+    font-size: 28px;
+    font-weight: 400;
 }
-/* h1{
-	color: #7b32d9; 
-} */
+#outline
+{
+    opacity: 80%;
+}
 
-a:hover:not(.page-heading):not(#anylink) {
-    color: #ffffff;
-    background-color: #1b1b1b;
+#status
+{
+    margin-top: 32px;
+    font-size: 16px;
+    background-color: #121212;
+    border-radius: 5px;
+    color: lightgreen;
+    padding: 16px 16px;
+
+    width: fit-content;
+}
+body{
+    background-image: url(/images/blurbfg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading a
+{
+    color: black;
     text-decoration: none;
-    padding: 2px;
-    margin: -2px;
+    padding: 0%;
 }
-h6{
-	text-align: center;
+.heading ul{
+    padding: 10px 0px;
+}
+.heading
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+
 }
 
-.page-heading {
-	text-align: center;
-	text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 100;
-	font-size: 20px;
+.intro
+{
+    
+    width: 80%;
+    margin: 32px 64px;
+    margin-left: 10%;
+}
+.navs
+{
+    width: 100%;
+}
+.about
+{
+    width: 80%;
+    margin: 32px 64px;
+    margin-left: 10%;
+}
+.work
+{
+    width: 80%;
+    margin: 32px 64px;
+    margin-left: 10%;
 }
 
-.footer {
-	position: relative;
-	width: 100%;
+.project
+{
+    border-radius: 25px;
+}
+
+.project img
+{
+    margin-top:  64px;
+    width: 100%;
+    border-radius: 16px;
+}
+ul
+{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+
+    text-decoration: none;
+    
+    padding: 16px 16px;
+    text-align: center;
+    color: black;
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    /*desktop goes here*/
+    .navbar
+    {
+        width: 60%;
+        margin-left: 20%;
+        flex-direction: row;
+    }
+
+    .heading 
+    {
+        width: 55%;
+        padding: 16px 16px;
+    }
+    
+    .intro,.about,.work
+    {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        width: 60%;
+        margin-left: 20%;
+
+    }
+
+    #purple
+    {
+    
+        font-size: 32px;
+        font-weight: 200;
+    }
+    #big
+    {
+        font-size: 50px;
+        
+    }
+
+       
 }

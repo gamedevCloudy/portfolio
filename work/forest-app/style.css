@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+}
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+.header{
+    margin-top: 64px; 
+    margin-bottom: 64px; 
+    width: 90%;
+    margin-left: auto;
+}
+.col1
+{
+    width: 90%;
+}
+.col2
+{
+    width: 90%;
+}
+
+
+.desc
+{
+    line-height: 1.5em;
+}
+.center{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;   
+}
+.banner{
+    background-color: rgb(208, 224, 156);
+}
+
+body {
+	color: #1b1b1b;
+	text-align: justified;
+    
+	width: 95%;
+	margin: auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* desktop */
+    .header {
+      width: 60%;
+      margin-left: 12%;
+      margin-right: 12%;
+      justify-content: center;
+    }
+    .col1
+    {
+        width: 30%;
+    }
+    .col2
+    {
+        width: 70%;
+    }
+
+    .desc
+    {
+    display: flex;
+    flex: auto;
+    }
+  }

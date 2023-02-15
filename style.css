@@ -28,7 +28,7 @@ p a {
 
 #purple {
   color: rebeccapurple;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -105,9 +105,9 @@ hr {
 .contact,
 .footpar,
 .stats {
-  width: 80%;
+  width: 90%;
   margin: 32px 64px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .stats {
@@ -200,6 +200,12 @@ button[type="button"] {
   background-color: #25d366;
   cursor: pointer;
   transition: background-color 0.2s;
+  
+}
+
+form a{
+  text-decoration: none;
+  width: 100%;
 }
 
 button[type="button"]:hover {
@@ -229,6 +235,7 @@ input[type="submit"] {
   cursor: pointer;
   transition: background-color 0.2s;
 }
+
 
 input[type="submit"]:hover {
   background-color: #0039cb;
@@ -354,5 +361,7 @@ footer p {
     font-size: 50px;
 
   }
-
+  .wrapper img {
+    width: 60%;
+  }
 }

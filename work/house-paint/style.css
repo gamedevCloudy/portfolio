@@ -240,8 +240,18 @@ body {
   text-align: center;
 }
 
+.card p{
+  font-size: 8px;
+  margin: 16px 16px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+
 /* Download button styles */
 .download-btn {
+  /* width: 100%; */
+
   display: inline-block;
   background-color: #2e7d32;
   color: #fff;

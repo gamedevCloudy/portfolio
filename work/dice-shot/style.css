@@ -243,7 +243,7 @@ body {
 /* Download button styles */
 .download-btn {
   display: inline-block;
-  background-color: #2e7d32;
+  background-color: #FA5C5C;
   color: #fff;
   text-decoration: none;
   padding: 12px 24px;
@@ -253,9 +253,16 @@ body {
 }
 
 .download-btn:hover {
-  background-color: #1b5e20;
+  background-color: #E35454;
 }
 
+.card p{
+  font-size: 8px;
+  margin: 16px 16px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
 .wrapper img{
   width: 85%;
 }
@@ -310,6 +317,6 @@ body {
       max-width: 160px;
     }
     .wrapper img{
-      width: 24%;
+      width: 65%;
     }
   }

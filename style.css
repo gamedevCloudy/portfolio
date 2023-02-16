@@ -1,20 +1,20 @@
 /*Mobile and global goes here */
 html {
   scroll-behavior: smooth;
-
-  backdrop-filter: blur(10px) brightness(120%) contrast(80%);
-}
-
-body {
-
-  font-family: Inter, Roboto Condensed, sans-serif;
-
   background-image: url(/images/bgunsplash.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   background-color: #acc9e2;
+ 
+  backdrop-filter: blur(10px) brightness(120%) contrast(80%);
+}
+
+body {
+
+  font-family: Inter, Roboto Condensed, sans-serif;
+  
 }
 
 p {
@@ -64,22 +64,6 @@ hr {
   width: fit-content;
 }
 
-.heading a {
-  color: black;
-  text-decoration: none;
-  text-align: left;
-}
-
-.heading ul {
-  padding: 0%;
-}
-
-.heading {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 16px 16px;
-}
 
 .navbar {
   display: flex;
@@ -89,6 +73,54 @@ hr {
 
 }
 
+.heading {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 8px 8px;
+}
+
+.heading a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+.heading ul {
+  padding: 0%;
+  list-style-type: none;
+}
+
+
+.navs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 8px 8px;
+}
+.navs ul li img {
+  width: 8px;
+  height: 8px;
+}
+
+.navs ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.navs li {
+  float: left;
+}
+
+.navs li a {
+
+  text-decoration: none;
+
+  padding: 16px 16px;
+  text-align: center;
+  color: black;
+}
+
 .intro {
 
   width: 80%;
@@ -96,21 +128,19 @@ hr {
   margin-left: 10%;
 }
 
-.navs {
-  width: 100%;
-}
 
 .about,
 .work,
 .contact,
-.footpar,
-.stats {
+.footpar {
   width: 90%;
   margin: 32px 64px;
   margin-left: 5%;
 }
 
 .stats {
+  width: 90%;
+  /* margin-left: 5%; */
   align-items: center;
   font-family: "Roboto", sans-serif;
   /* background-color: #f5f5f5; */
@@ -129,22 +159,6 @@ hr {
   border-radius: 16px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-li {
-  float: left;
-}
-
-li a {
-
-  text-decoration: none;
-
-  padding: 16px 16px;
-  text-align: center;
-  color: black;
-}
 
 form {
   display: flex;

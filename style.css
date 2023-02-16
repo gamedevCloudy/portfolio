@@ -297,6 +297,9 @@ footer p {
 .btn-itch {
   background-color: #FA5C5C;
 }
+.btn-yt {
+  background-color: #f11f1f;
+}
 
 .wrapper {
   display: flex;

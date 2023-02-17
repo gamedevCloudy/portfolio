@@ -9,7 +9,7 @@ body {
   
   font-family: Inter, Roboto Condensed, sans-serif;
   
-  background-image: url(/images/bgunsplash.jpg);
+  background-image: url(/images/bgunsplash.webp);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -322,5 +322,11 @@ body {
     }
     .wrapper img{
       width: 65%;
+    }
+
+    .work img
+    {
+      width: 70%;
+      margin-left: 15%;
     }
   }

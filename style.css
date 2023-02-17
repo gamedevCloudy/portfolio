@@ -381,4 +381,10 @@ footer p {
   .wrapper img {
     width: 60%;
   }
+
+  .project img{
+    width: 70%;
+    margin-left: 15%;
+
+  }
 }

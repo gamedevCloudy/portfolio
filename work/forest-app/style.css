@@ -314,12 +314,8 @@ body {
     .app-icon {
       max-width: 160px;
     }
-    .wrapper img{
+    .work .wrapper img{
       width: 24%;
     }
-    .work img
-    {
-      width: 70%;
-      margin-left: 15%;
-    }
+    
   }

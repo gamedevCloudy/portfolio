@@ -300,6 +300,12 @@ footer p {
 .btn-yt {
   background-color: #f11f1f;
 }
+.btn-resume {
+  background-color: #1f1f1f;
+  border-style: solid;
+  border-width: 2px; 
+  border-color:  #0072b1;
+}
 
 .wrapper {
   display: flex;

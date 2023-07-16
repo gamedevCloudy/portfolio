@@ -1,0 +1,6 @@
+plugins:
+  - jekyll-sitemap
+timezone: Asia/Kolkata
+title: gamedevCloudy
+description: This is Aayush Chaudhary's homepage
+author: gamedevCloudy

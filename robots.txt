@@ -1,7 +1,0 @@
-User-agent: *
-
-Disallow: /.journal/
-Disallow: /.backup/
-Disallow: /images/
-Disallow: /work/tests/
-Disallow: /Open-GameDev/

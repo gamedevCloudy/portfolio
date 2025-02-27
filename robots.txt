@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /.backup/
+Disallow: /images/
+Disallow: /work/tests/
+Disallow: /Open-GameDev/
